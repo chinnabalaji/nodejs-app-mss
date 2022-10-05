@@ -23,7 +23,7 @@ app.get('/mithuntechnologies', function(request, response) {
     //response.send("<h2><center>Welcome to Node JS app</h2>");
     response.write("<h2><center><u>Node JS  Application </u></center></h2>");
 	
-    response.write("<h2><center>Welcome to  Mithun Technologies. Please Contact +91-9980923226,++91-9980923216 for more information or send an email to devopstrainingblr@gmail.com <center></h2>" );
+    response.write("<h2><center>Welcome to  My page. Contact +91-9390303232; Email chinnabalaji.yalla@gmail.com <center></h2>" );
     response.end();
     
   })
@@ -42,12 +42,12 @@ app.get("/html", function(req,res){
     app.get("/jsonData", function(req,res){
         res.type('json');
         //res.type('application/json');
-        //res.json({'name': 'Mithun Reddy L'});
+        //res.json({'name': 'balaji yalla'});
         res.send({
-		'name': 'Mithun Technologies',
+		'name': 'balaji yalla',
 		'technology': 'DevOps',
-		'contact' : '9980923226',
-		'email': 'devopstrainingblr@gmail.com'
+		'contact' : '9390303232',
+		'email': 'chinnabalaji.yalla@gmail.com'
 	            });
         
         });
@@ -75,7 +75,7 @@ app.get('/redirect', function(req, res) {
     
  
     app.listen(app.get('port'), function() {
-        console.log("Node JS app is running at http://localhost:" + app.get('port') +"/mithuntechnologies");
+        console.log("Node JS app is running at http://localhost:" + app.get('port') +"/balaji");
       })
     
 
